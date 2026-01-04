@@ -49,7 +49,6 @@ function processLine(symbolTable, tokenStack, tokeniser, inputSanitizer) {
             }
         } catch (e) {
             // show error and continue requesting data
-            console.log("Something went wrong! Check your input");
             console.error(e.toString());
         }
         // recursive call to request a new input from the user

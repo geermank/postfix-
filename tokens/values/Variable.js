@@ -15,7 +15,7 @@ function Variable(value) {
     this.unwrap = function (symbolTable) {
         let unwrapped = symbolTable.search(this.key);
         if (!unwrapped) {
-            console.log("Variable value not yet assigned");
+            throw Error("Variable value not yet assigned");
         }
         return unwrapped;
     }

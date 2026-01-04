@@ -17,7 +17,7 @@ function BinaryMathOperation() {
             // as some math operations may have different results
             return operation(first, last);
         } catch (e) {
-            throw new Error("BinaryMathOperationInvalid :: Invalid tokens. Can't unwrap these types");
+            throw new Error("There is a problem with the tokens. Check your input. " + e.toString());
         }
     }
 }
