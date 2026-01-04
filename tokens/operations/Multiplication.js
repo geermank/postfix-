@@ -1,6 +1,9 @@
 const BinaryMathOperation = require("../utils/BinaryMathOperation");
 const Integer = require("../values/Integer");
 
+/**
+ * Multiplies the last two values of the stack
+ */
 function Multiplication() {
 
     let binaryMathOperation = new BinaryMathOperation()

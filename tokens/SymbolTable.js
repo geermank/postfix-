@@ -1,3 +1,11 @@
+/**
+ * A class that stores key-value pairs.
+ *
+ * Assumes that variable names can be only characters from a to z, resulting
+ * in a maximum number of variables of 26.
+ *
+ * Internally, it uses a hashtable to store them.
+ */
 function SymbolTable() {
 
     // since we're storing letters from A to Z, 26 is the max size of the symbols array

@@ -6,6 +6,14 @@ const Assignment = require("./operations/Assignment");
 const Integer = require("./values/Integer");
 const Variable = require("./values/Variable");
 
+/**
+ * Converts each token string into its class form and executes it,
+ * delegating the operational responsibility to the token.
+ *
+ * This means that the token is responsible for any expected results
+ * from only updating the token stack, updating the symbol table, to operating with previously updated tokens
+ * and generate a result in any of the previously mentioned data structures.
+ */
 function Tokeniser() {
 
     const operationalTokens = new Map();

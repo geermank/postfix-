@@ -1,6 +1,7 @@
 /**
  * Utility class that pops the latest 2 tokens stored, tries to unwrap them to its numeric form,
  * and runs the given operation on them, returning its result.
+ *
  * If unwrapping fails, it throws an exception, skipping this instruction due to incorrect input.
  * Popped values are lost.
  */

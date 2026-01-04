@@ -1,6 +1,9 @@
 const BinaryMathOperation = require("../utils/BinaryMathOperation");
 const Integer = require("../values/Integer");
 
+/**
+ * Sums the last two values of the stack
+ */
 function Addition() {
 
     let binaryMathOperation = new BinaryMathOperation()

@@ -1,7 +1,7 @@
 const Tokeniser = require("./tokens/Tokeniser");
 const TokenStack = require("./tokens/TokenStack");
 const SymbolTable = require("./tokens/SymbolTable");
-const Sanitizer = require("./tokens/Sanitizer");
+const Sanitizer = require("./tokens/utils/Sanitizer");
 const readline = require("readline");
 
 const consoleReader = readline.createInterface({

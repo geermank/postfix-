@@ -1,3 +1,9 @@
+/**
+ * Token that represents a value stored in the symbol table, which can be remembered for feature use, updated,
+ * and accessed during mathematical operations by unwrapping it (get its numeric form from the table)
+ *
+ * @param value the name of the variable. That is, the key used to stored its value in the symbolTable
+ */
 function Variable(value) {
 
     this.key = value;

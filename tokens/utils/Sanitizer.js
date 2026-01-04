@@ -1,3 +1,11 @@
+/**
+ * Utility class that converts an input into an array of token strings, verifying the validity
+ * of each of them individually.
+ *
+ * This class searches for spelling/grammar mistakes, not for logical ones. This means that if the
+ * input is logically wrong, but its grammar is correct, sanitize will not fail and will return an array
+ * of token strings anyway.
+ */
 function Sanitizer() {
 
     let validTokensRegex = /^[0-9a-z+\-*/=]$/;
